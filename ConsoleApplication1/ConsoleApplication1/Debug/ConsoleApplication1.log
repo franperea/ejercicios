@@ -1,0 +1,55 @@
+﻿Compilación iniciada a las 11/04/2018 16:53:48.
+     1>Proyecto "c:\Users\Fran\documents\visual studio 2012\Projects\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Esfera.cpp Mundo.cpp Source.cpp
+         Source.cpp
+     1>c:\users\fran\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\coord_t.h(6): error C2011: 'Coord_t' : nueva definición del tipo 'struct'
+                 c:\users\fran\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\coord_t.h(6) : vea la declaración de 'Coord_t'
+     1>c:\users\fran\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\coord_t.h(15): error C2027: uso del tipo 'Coord_t' sin definir
+                 c:\users\fran\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\coord_t.h(6) : vea la declaración de 'Coord_t'
+     1>c:\users\fran\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\coord_t.h(17): error C2065: 'x' : identificador no declarado
+     1>c:\users\fran\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\coord_t.h(17): error C2065: 'y' : identificador no declarado
+     1>c:\users\fran\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\coord_t.h(17): error C2065: 'z' : identificador no declarado
+     1>c:\users\fran\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\esfera.h(5): error C2079: 'Esfera::a' utiliza struct 'Coord_t' sin definir
+     1>c:\users\fran\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\esfera.h(9): error C2440: 'inicializando' : no se puede realizar la conversión de 'Coord_t' a 'int'
+                 El origen o el destino tienen un tipo incompleto
+     1>c:\users\fran\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\esfera.h(9): error C2439: 'Esfera::a' : no se pudo inicializar el miembro
+                 c:\users\fran\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\esfera.h(5) : vea la declaración de 'Esfera::a'
+     1>c:\users\fran\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\mundo.h(10): error C2512: 'Mundo' : no hay disponible un constructor predeterminado adecuado
+     1>c:\users\fran\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\source.cpp(10): error C2664: 'Esfera::Esfera(Coord_t,double)' : no se puede convertir el parámetro 1 de 'Coord_t' a 'Coord_t'
+                 El origen o el destino tienen un tipo incompleto
+         Mundo.cpp
+     1>c:\users\fran\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\coord_t.h(6): error C2011: 'Coord_t' : nueva definición del tipo 'struct'
+                 c:\users\fran\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\coord_t.h(6) : vea la declaración de 'Coord_t'
+     1>c:\users\fran\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\coord_t.h(15): error C2027: uso del tipo 'Coord_t' sin definir
+                 c:\users\fran\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\coord_t.h(6) : vea la declaración de 'Coord_t'
+     1>c:\users\fran\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\coord_t.h(17): error C2065: 'x' : identificador no declarado
+     1>c:\users\fran\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\coord_t.h(17): error C2065: 'y' : identificador no declarado
+     1>c:\users\fran\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\coord_t.h(17): error C2065: 'z' : identificador no declarado
+     1>c:\users\fran\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\esfera.h(5): error C2079: 'Esfera::a' utiliza struct 'Coord_t' sin definir
+     1>c:\users\fran\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\esfera.h(9): error C2440: 'inicializando' : no se puede realizar la conversión de 'Coord_t' a 'int'
+                 El origen o el destino tienen un tipo incompleto
+     1>c:\users\fran\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\esfera.h(9): error C2439: 'Esfera::a' : no se pudo inicializar el miembro
+                 c:\users\fran\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\esfera.h(5) : vea la declaración de 'Esfera::a'
+     1>c:\users\fran\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\mundo.h(10): error C2512: 'Mundo' : no hay disponible un constructor predeterminado adecuado
+         Esfera.cpp
+     1>c:\users\fran\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\coord_t.h(6): error C2011: 'Coord_t' : nueva definición del tipo 'struct'
+                 c:\users\fran\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\coord_t.h(6) : vea la declaración de 'Coord_t'
+     1>c:\users\fran\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\coord_t.h(15): error C2027: uso del tipo 'Coord_t' sin definir
+                 c:\users\fran\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\coord_t.h(6) : vea la declaración de 'Coord_t'
+     1>c:\users\fran\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\coord_t.h(17): error C2065: 'x' : identificador no declarado
+     1>c:\users\fran\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\coord_t.h(17): error C2065: 'y' : identificador no declarado
+     1>c:\users\fran\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\coord_t.h(17): error C2065: 'z' : identificador no declarado
+     1>c:\users\fran\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\esfera.h(5): error C2079: 'Esfera::a' utiliza struct 'Coord_t' sin definir
+     1>c:\users\fran\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\esfera.h(9): error C2440: 'inicializando' : no se puede realizar la conversión de 'Coord_t' a 'int'
+                 El origen o el destino tienen un tipo incompleto
+     1>c:\users\fran\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\esfera.h(9): error C2439: 'Esfera::a' : no se pudo inicializar el miembro
+                 c:\users\fran\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\esfera.h(5) : vea la declaración de 'Esfera::a'
+     1>c:\users\fran\documents\visual studio 2012\projects\consoleapplication1\consoleapplication1\esfera.cpp(6): error C2228: el operando izquierdo de '.print' debe tener class/struct/union
+                 el tipo es 'int'
+         Generando código...
+     1>Compilación del proyecto terminada "c:\Users\Fran\documents\visual studio 2012\Projects\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (Build destinos) -- ERROR.
+
+ERROR al compilar.
+
+Tiempo transcurrido 00:00:01.95
