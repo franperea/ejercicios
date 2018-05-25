@@ -1,0 +1,4 @@
+﻿  ejemplo_plantillas.cpp
+c:\users\fran\source\repos\ejemplo_plantillas\ejemplo_plantillas\ejemplo_plantillas.cpp(55): error C2061: error de sintaxis: identificador 't'
+  c:\users\fran\source\repos\ejemplo_plantillas\ejemplo_plantillas\ejemplo_plantillas.cpp(56): note: vea la referencia a la creación de instancias de plantilla clase de 'Less<T>' que se está compilando
+c:\users\fran\source\repos\ejemplo_plantillas\ejemplo_plantillas\ejemplo_plantillas.cpp(58): error C2061: error de sintaxis: identificador 't'
